@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: testRuns.TestRuns
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.876 s <<< FAILURE! - in testRuns.TestRuns
+feature1.scenario1  Time elapsed: 10.504 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[] Examples - CrossBro...> but was:<[Web] Examples - CrossBro...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at commonMethods.SpecificToSelenium.validatePageTitle(SpecificToSelenium.java:18)
+	at stepDefinitions.StepDefintions.user_is_in_the_home_page(StepDefintions.java:11)
+	at ✽.user is in the home page " Examples - CrossBrowserTesting.com"(file:///C:/Users/sheereesh/eclipse-workspace/practiceproject/src/test/resources/features/feature1.feature:3)
+
